@@ -51,6 +51,11 @@ Tương tự như checkout <file>, lệnh này có ảnh hưởng đến toàn b
 
 -git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git : Change your remote's URL from SSH to HTTPS with the git remote set-url command.
 
+-git pull origin development : khac phuc pull down
++git pull origin
+then press TAB and write your "master" repository
++git config --global push.default simple
 
+-git add -u : update all your change
 
 

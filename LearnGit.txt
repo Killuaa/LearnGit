@@ -35,4 +35,18 @@ remote -v
 -git pull origin <Tên nhánh, vd master> : Lấy source mới nhất trên server về và tiến
 hành trộn
 
+-git reset origin/master : reset nhanh(mat code)
+
+-Git checkout <branch> : quay ve nhanh branch 
+
+-Git checkout <commit> <file> :Lệnh này sẽ làm quay về tình trạng cũ của một file nào đó, nghĩa là <file> trong sourcecode của bạn sẽ được quay trở lại tình trạng tại <commit> đó
+
+-git checkout <commit>
+
+Tương tự như checkout <file>, lệnh này có ảnh hưởng đến toàn bộ sourcecode của bạn. Sourcecode của bạn sẽ quay trở lại tình trạng tại <commit> này. Điều này có nghĩa mọi thay đổi của bạn trong sourcecode chưa được commit sẽ không còn
+
+- git revert <commit> : xoa bo file up trong lan commit do 
+
+
+
 

@@ -1,0 +1,38 @@
+Learn Git
+ 
+-touch new.txt  :tao file new.txt
+
+-echo "Hello"> new.txt : dua "hello" vao file new.txt
+
+-git status : kiem tra trang thai git
+
+-git add new.txt : them file new.txt vao git
+
+-git commit m " tao file new.txt" : dua ra thong bao tao ra fle new.txt (
+-trruoc khi add hay remove file thi phai commit ),Xac nhan su thay doi cua muc
+-Git
+
+- git log : kiem tra cac trang thai da commit
+
+-git remote add origin + http(Link)thu muc git tren github(de dua file git
+trong may len github)(ket noi toi dia chi github) +git remote origin +git
+remote -v
+(co the thay origin bawng github)
+
+-git push origin master(ten nhanh) :dua file git len github(update trang thai
+-cua git local len github)
+
+-git rm new.txt :xoa file git
+
+-git clone +http(Link cua 1 folder tren github): Dua folder tren github ve
+-maytinh
+
+-git init : tro vao 1 folder ,de folder nay git co quyen quan ly
+
+-git fetch + <ten nhanh> :  Lấy source mới nhất trên server về đè lên source
+-hiện tại trên máy local
+
+-git pull origin <Tên nhánh, vd master> : Lấy source mới nhất trên server về và tiến
+hành trộn
+
+

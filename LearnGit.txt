@@ -47,6 +47,10 @@ Tương tự như checkout <file>, lệnh này có ảnh hưởng đến toàn b
 
 - git revert <commit> : xoa bo file up trong lan commit do 
 
+-git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git : Change your remote's URL from HTTPS to SSH with the git remote set-url command
+
+-git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git : Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+
 
 
 

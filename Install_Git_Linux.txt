@@ -1,0 +1,19 @@
+Cài đặt git
+
+
+->1
+	sudo apt-get install git
+->2
+	Cài đặt SSH key để bạn có thể tạo dự án và đẩy chúng lên github
+
+- ssh-keygen -t rsa -C "your_email@youremail.com"
+
+-Cứ enter cho đến khi xong .
+Copy nội dung file id_rsa.pub trong thư mục ./ssh để add vào github đến mục setting > SSH keys và tạo mới , nhập nội dụng đoạn mã trong id_rsa.pub vào rồi lưu lại
+
+-Nhap pass cho private key de truy cap github qua ssh bang private key 
+
+->3
+	Bây giờ thử check xem kết nối đã thành công chưa bằng lệnh
+
+-ssh -T git@github.com  
